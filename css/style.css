@@ -1,6 +1,53 @@
+.navbar{
+    justify-content: space-around !important;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .template-container{
     background-color: #a8d4dd;
-    width: 924px;
+    height: 450px;
+}
+
+.container{
+    width: 924px !important;
+}
+
+.template{
+    height: 310px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whith-botton{
+    height: 15px;
+    width: 15px;
+    background-color: #ffff;
+    border-color: #ffff !important;
+}
+
+.carousel-botton{
+    background-color: #a8d4dd;
+    border-color: #ffff !important;
+    color: #ffff;
+    border-bottom-color: #ffff !important ;
+    height: 15px;
+    width: 15px;
+}
+
+.carousel-template{
+    width: 100px;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin: auto !important;
+    margin-bottom: 30px !important;
+}
+
+.image-pc{
+    width: 307px;
+    height: 275px;
 }
 
 .container{
@@ -14,9 +61,13 @@
 .text-principal{
     justify-content: flex-start;
     align-items: center;
-    font-size: 30px;
-    width: 222px;
+    font-size: 45px;
+    width: 387px;
     text-align: center;
+}
+
+.pc-png{
+    padding-right: 24px ;
 }
 
 .phone{
@@ -38,6 +89,20 @@
 .container-recent-work{
     background-color: #97d2a4;
     height: 500px;
+}
+
+.title{
+    align-items: center;
+    margin-right: 40px;
+}
+
+.title-template{
+    font-size: 24px;
+}
+
+.template-logo{
+    margin-right: 10px;
+    font-size: 33px;
 }
 
 .title-recent-work{
@@ -69,3 +134,4 @@
     width: 80px;
     text-align: center;
 }
+
