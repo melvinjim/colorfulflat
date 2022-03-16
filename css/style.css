@@ -1,4 +1,71 @@
-.container-fluid{
+.template-container{
     background-color: #a8d4dd;
     width: 924px;
+}
+
+.container{
+    width: 920px;
+}
+
+.template{
+    justify-content: space-around;
+}
+
+.text-principal{
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    width: 222px;
+    text-align: center;
+}
+
+.phone{
+    width: 100px;
+}
+
+.light{
+    width: 60px;
+}
+
+.bg-logo{
+    background-color: #ffff;
+}
+
+.document{
+    width: 102px;
+}
+
+.container-recent-work{
+    background-color: #97d2a4;
+    height: 500px;
+}
+
+.title-recent-work{
+    text-align: center;
+    color: #ffff;
+    font-size: 55px;
+}
+
+.recent-work-lorem{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    width: 320px;
+    color: #ffff;
+}
+
+.menu-recent-work{
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.button-web{
+    border: 2px solid #ffff;
+}
+
+.buttons{
+    margin: 10px;
+    width: 80px;
+    text-align: center;
 }
