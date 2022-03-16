@@ -31,6 +31,14 @@ span{
     justify-content: center;
 }
 
+.button-all{
+    margin-right: 20px;
+}
+
+.button-web{
+    border-radius: 10px;
+}
+
 .botton-template-white{
     border-radius: 100%;
     border: solid #ffff;
@@ -132,9 +140,10 @@ span{
     border: 2px solid #ffff;
 }
 
-.buttons{
-    margin: 10px;
-    width: 80px;
-    text-align: center;
+.images-recent-work{
+    margin: auto;
+    width: 440px;
+    margin-top: 30px;
 }
+
 
