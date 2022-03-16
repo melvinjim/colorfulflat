@@ -1,8 +1,13 @@
 .navbar{
-    justify-content: space-around !important;
+    justify-content: space-between !important;
+    padding: 10px 0px 0px 0px !important;
 }
 
 span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.time-new-roman{
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -19,35 +24,33 @@ span{
     height: 310px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
-.whith-botton{
-    height: 15px;
-    width: 15px;
+.bottons{
+    justify-content: center;
+}
+
+.botton-template-white{
+    border-radius: 100%;
+    border: solid #ffff;
     background-color: #ffff;
-    border-color: #ffff !important;
-}
-
-.carousel-botton{
-    background-color: #a8d4dd;
-    border-color: #ffff !important;
-    color: #ffff;
-    border-bottom-color: #ffff !important ;
-    height: 15px;
     width: 15px;
+    height: 15px;
+    margin: 5px;
 }
 
-.carousel-template{
-    width: 100px;
-    display: flex !important;
-    justify-content: space-evenly !important;
-    margin: auto !important;
-    margin-bottom: 30px !important;
+.botton-template{
+    border-radius: 100%;
+    border: solid #ffff;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
 }
 
 .image-pc{
-    width: 307px;
-    height: 275px;
+    width: 298px;
+    height: 273px;
 }
 
 .container{
@@ -55,19 +58,19 @@ span{
 }
 
 .template{
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 67px;
+    height: auto;
 }
 
 .text-principal{
-    justify-content: flex-start;
-    align-items: center;
     font-size: 45px;
     width: 387px;
     text-align: center;
 }
 
 .pc-png{
-    padding-right: 24px ;
+    padding-right: 106px ;
 }
 
 .phone{
