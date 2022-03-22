@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/14fb058027.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <title>colorfulflat</title>
 </head>
 <body>
@@ -72,54 +75,56 @@
         </div>
     </div>
     <div class="container-recent-work container-fluid">
-        <div class="recent-work container">
-            <div class="title-recent-work">Recent work</div>
-            <p class="recent-work-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quae tempora, quibusdam, enim ratione</p>
-        </div> 
-        <div class="menu-recent-work d-flex">
-            <ul class="nav nav-pills">
-                <li class="button-all nav-item">
-                    <a class="nav-link active" style="color: #000000; background-color: rgb(255, 255, 255);" href="#">ALL</a>
-                </li>
-                <li class="button-web buttons nav-item">
-                    <a class="nav-link text-white" href="#">WEB</a>
-                </li>
-                <li class="button-mobile nav-item">
-                    <a class="nav-link text-white" href="#">MOBILE</a>
-                </li>
-                <li class="button-pothografy nav-item">
-                    <a class="nav-link text-white" href="#">POTHOGRAFY</a>
-                </li>
-                <li class="button-design nav-item">
-                    <a class="nav-link text-white" href="#">DESIGN</a>
-                </li>
-                <li class="button-type nav-item">
-                    <a class="nav-link text-white" href="#">TYPE</a>
-                </li>
-            </ul>
-            
-        </div> 
-        <div class="images-recent-work d-flex">
-            <div class="col sm-4">
-                <img src="images/recent-works-1.png" class="document">
+        <div class="container">
+            <div class="recent-work">
+                <div class="title-recent-work"><strong>RECENT WORKS</strong></div>
+                <p class="recent-work-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quae tempora, quibusdam, enim ratione</p>
+            </div> 
+            <div class="menu-recent-work d-flex">
+                <ul class="nav nav-pills" style="font-size: 14px;">
+                    <li class="button-all nav-item">
+                        <a class="nav-link active" style="color: #000000; background-color: rgb(255, 255, 255);padding: 7px 9px;" href="#">ALL</a>
+                    </li>
+                    <li class="button-web buttons nav-item"  style="margin-right: 20px;">
+                        <a class="nav-link text-white" href="#" style="padding: 6px 15px;">WEB</a>
+                    </li>
+                    <li class="button-mobile nav-item" style="margin-right: 20px;">
+                        <a class="nav-link text-white" href="#">MOBILE</a>
+                    </li>
+                    <li class="button-pothografy nav-item" style="margin-right: 20px;">
+                        <a class="nav-link text-white" href="#">POTHOGRAFY</a>
+                    </li>
+                    <li class="button-design nav-item" style="margin-right: 20px;">
+                        <a class="nav-link text-white" href="#">DESIGN</a>
+                    </li>
+                    <li class="button-type nav-item">
+                        <a class="nav-link text-white" href="#">TYPE</a>
+                    </li>
+                </ul>  
+            </div> 
+            <div class="images-recent-work d-flex">
+                <div class="col sm-4">
+                    <img src="images/recent-works-1.png" class="images-recent document">
+                </div>
+                <div class="col sm-4">
+                    <img src="images/recent-works-2.png" class="images-recent document">
+                </div>
+                <div class="col sm-4">
+                    <img src="images/recent-works-3.png" class="images-recent document">
+                </div>
             </div>
-            <div class="col sm-4">
-                <img src="images/recent-works-2.png" class="document">
+            <div class="images-recent-work d-flex">
+                <div class="col sm-4">
+                    <img src="images/recent-works-4.png" class="images-recent document">
+                </div>
+                <div class="col sm-4">
+                    <img src="images/recent-works-5.png" class="images-recent document">
+                </div>
+                <div class="col sm-4">
+                    <img src="images/recent-works-6.png" class="images-recent document">
+                </div>
             </div>
-            <div class="col sm-4">
-                <img src="images/recent-works-3.png" class="document">
-            </div>
-        </div>
-        <div class="images-recent-work d-flex">
-            <div class="col sm-4">
-                <img src="images/recent-works-4.png" class="document">
-            </div>
-            <div class="col sm-4">
-                <img src="images/recent-works-5.png" class="document">
-            </div>
-            <div class="col sm-4">
-                <img src="images/recent-works-6.png" class="document">
-            </div>
+            <button type="button" class="button-show-more btn" style="padding: 10px;"><strong>SHOW MORE</strong></button>
         </div>
     </div>
 </body>
