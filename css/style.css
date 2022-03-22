@@ -3,6 +3,20 @@
     padding: 10px 0px 0px 0px !important;
 }
 
+.nav-text{
+    padding-left: 40px !important;
+}
+
+.nav-text-servise{
+    padding-right: 40px !important;
+}
+
+.nav-text-potfolio{
+    color: #a8d4dd !important; 
+    background-color: black !important;
+    padding-left: 40px;
+}
+
 span{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -40,6 +54,15 @@ span{
 
 .button-web{
     border-radius: 10px;
+    border: 2px solid #ffff;
+    margin-right: 20px;
+}
+.a-button-web{
+    padding: 6px 15px !important;
+}
+
+.buttons-recent{
+    margin-right: 20px;
 }
 
 .botton-template-white{
@@ -57,6 +80,12 @@ span{
     width: 15px;
     height: 15px;
     margin: 5px;
+}
+
+.logos{
+    align-items: center;
+    justify-content: center;
+    height: 340px;
 }
 
 .image-pc{
@@ -109,6 +138,16 @@ span{
     padding: 30px;
 }
 
+.list-recent-work{
+    font-size: 14px;
+}
+
+.button-all-recent{
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 7px 9px !important;
+}
+
 .title{
     align-items: center;
     margin-right: 40px;
@@ -143,10 +182,6 @@ span{
     margin-top: 40px;
 }
 
-.button-web{
-    border: 2px solid #ffff;
-}
-
 .images-recent-work{
     margin: auto;
     margin-top: 48px;
@@ -165,6 +200,7 @@ span{
     display: flex !important;
     margin: auto;
     margin-top: 70px;
+    padding: 10px;
 }
 
 .container-layered{
@@ -177,15 +213,28 @@ span{
     padding-bottom: 60px;
 }
 
-.images-layered{
+.conatiner-documents-layered-down{
+    padding-bottom: 60px; 
+    margin-top: 60px;
+}
+
+.images-layered-up{
     width: 220px;
     height: 168px;
+    margin-right: 50px;
+}
+
+.images-layered-down{
+    width: 220px;
+    height: 168px;
+    margin-left: 50px;
 }
 
 .button-layered-show-more{
     background-color: #97d2a4 !important;
     color: #ffff !important;
     font-size: 13px !important;
+    padding: 10px !important;
 }
 
 .title-layered{
@@ -196,6 +245,7 @@ span{
     background-color: #a8d4dd !important;
     color: #ffff !important;
     font-size: 13px !important;
+    padding: 10px !important;
 }
 
 .container-meet{
@@ -205,6 +255,10 @@ span{
 
 .meet-our-team{   
     padding-top: 30px;
+}
+
+.card-meet{
+    width: 233px;
 }
 
 .title-meet{
@@ -282,6 +336,10 @@ span{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.card-recent{
+    width: 233px
+}
+
 .recent-lorem{
     text-align: center;
     font-size: 10px;
@@ -315,4 +373,5 @@ span{
     display: flex !important;
     margin: auto;
     margin-top: 70px;
+    padding: 10px !important;
 }
