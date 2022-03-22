@@ -200,11 +200,11 @@ span{
 
 .container-meet{
     background-color: #e1b6c7;
-    height: 700px;
+    height: 600px;
 }
 
 .meet-our-team{   
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .title-meet{
@@ -219,10 +219,17 @@ span{
     font-size: 20px;
 }
 
-.contaner-card-meet{
+.container-card-meet{
     text-align: center;
     height: 350px;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.image-meet-card{
+    width: 230px;
+    height: 130px;
+    margin: auto;
 }
 
 .meet-lorem{
@@ -252,4 +259,60 @@ span{
 
 .card{
     border-radius: 0px!important;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.container-recent{
+    background-color: #a8d4dd;
+    height: 580px;
+}
+
+
+.recent-posts{   
+    padding-top: 30px;
+}
+
+.title-recent{
+    text-align: center;
+    color: #ffff;
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recent-lorem{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    width: 320px;
+    color: #ffffff8a;
+}
+
+.title-card-recent{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container-card-recent{
+    text-align: center;
+    height: 290px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.image-recent-card{
+    width: 230px;
+    height: 130px;
+    margin: auto;
+}
+
+.button-show-more-recent{
+    background-color: #ffff !important;
+    color: #a8d4dd !important;
+    font-size: 13px !important;
+    display: flex !important;
+    margin: auto;
+    margin-top: 70px;
 }
