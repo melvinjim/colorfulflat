@@ -316,12 +316,13 @@ span{
 }
 
 .card-text{
-    font-size: 13px;
+    font-size: 14px;
+    color: #808080;
 }
 
 .container-recent{
     background-color: #a8d4dd;
-    height: 580px;
+    height: 610px;
 }
 
 
@@ -337,7 +338,7 @@ span{
 }
 
 .card-recent{
-    width: 233px
+    width: 253px
 }
 
 .recent-lorem{
@@ -355,13 +356,13 @@ span{
 
 .container-card-recent{
     text-align: center;
-    height: 290px;
+    height: 295px;
     justify-content: space-between;
     margin-top: 40px;
 }
 
 .image-recent-card{
-    width: 230px;
+    width: 250px !important;
     height: 130px;
     margin: auto;
 }
@@ -374,4 +375,95 @@ span{
     margin: auto;
     margin-top: 70px;
     padding: 10px !important;
+}
+
+.card-text-recent{
+    font-size: 10px;
+    color: #808080;
+    margin-top: 8px;
+}
+
+.subtitle-recent{
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: #3D3D3D;
+    height: 700px;
+}
+
+.title-contac{
+    padding-top: 50px;
+    text-align: center;
+    color: #ffff;
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contac-lorem{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    width: 320px;
+    color: #ffffff8a;
+}
+
+.type-text-name{
+    margin: auto !important;
+    width: 460px !important;
+    margin-top: 50px !important;
+}
+
+.type-text-email{
+    margin: auto !important;
+    width: 460px !important;
+    margin-top: 20px !important;
+}
+
+.type-text-message{
+    margin: auto !important;
+    width: 460px !important;
+    margin-top: 20px !important;
+    height: 140px !important;
+    border-radius: 5px;
+}
+
+.button-show-more-contact{
+    background-color: #ffff !important;
+    color: #3D3D3D !important;
+    font-size: 13px !important;
+    display: flex !important;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px !important;
+    margin-bottom: 80px;
+}
+
+hr{
+    background-color: black;
+}
+
+.footer-logo-twitter{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer-logo-facebook{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer-logo-html{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer-logo-flickr{
+    font-size: 40px;
+    margin-top: 10px;
 }
