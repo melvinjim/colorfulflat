@@ -135,12 +135,12 @@ span{
     font-size: 10px;
     margin: auto;
     width: 320px;
-    color: #ffff;
+    color: #ffffff8a;
 }
 
 .menu-recent-work{
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .button-web{
@@ -165,4 +165,91 @@ span{
     display: flex !important;
     margin: auto;
     margin-top: 70px;
+}
+
+.container-layered{
+    background-color: #f1f1f1;
+    height: auto;
+}
+
+.conatiner-documents-layered{
+    padding-top: 50PX;
+    padding-bottom: 60px;
+}
+
+.images-layered{
+    width: 220px;
+    height: 168px;
+}
+
+.button-layered-show-more{
+    background-color: #97d2a4 !important;
+    color: #ffff !important;
+    font-size: 13px !important;
+}
+
+.title-layered{
+    font-size: 23px;
+}
+
+.button-down-layered-show-more{
+    background-color: #a8d4dd !important;
+    color: #ffff !important;
+    font-size: 13px !important;
+}
+
+.container-meet{
+    background-color: #e1b6c7;
+    height: 700px;
+}
+
+.meet-our-team{   
+    padding: 30px;
+}
+
+.title-meet{
+    text-align: center;
+    color: #ffff;
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-card-meet{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.contaner-card-meet{
+    text-align: center;
+    height: 350px;
+    justify-content: center;
+}
+
+.meet-lorem{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    width: 320px;
+    color: #ffffff8a;
+}
+
+.facebook-meet{
+    color: #00f;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.twitter-meet{
+    color: #00bfff;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.pinterest-meet{
+    color: #dc143d;
+    font-size: 30px;
+}
+
+.card{
+    border-radius: 0px!important;
 }
