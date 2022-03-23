@@ -315,7 +315,7 @@ span{
 }
 
 .facebook-meet{
-    color: hsl(228deg 60% 40%);
+    color: #2941a3;
     font-size: 30px;
     margin-right: 5px;
 }
@@ -473,14 +473,14 @@ hr{
     font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
-    color: hsl(0deg 0% 32%);
+    color: #525252;
 }
 
 .footer-logo-facebook{
     font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
-    color: hsl(0deg 0% 32%);
+    color: #525252;
 }
 
 .footer-logo-html{
@@ -493,7 +493,7 @@ hr{
 .footer-logo-flickr{
     font-size: 35px;
     margin-top: 10px;
-    color: hsl(0deg 0% 32%);
+    color: #525252;
 }
 
 .container-footer{
