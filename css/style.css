@@ -5,15 +5,17 @@
 
 .nav-text{
     padding-left: 40px !important;
+    color: #3a484b;
 }
 
 .nav-text-servise{
     padding-right: 40px !important;
+    color: #3a484b;
 }
 
 .nav-text-potfolio{
     color: #a8d4dd !important; 
-    background-color: black !important;
+    background-color: #3a484b !important;
     padding-left: 40px;
 }
 
@@ -115,18 +117,29 @@ span{
 
 .phone{
     width: 100px;
+    margin-bottom: 20px;
 }
 
 .light{
     width: 60px;
+    margin-bottom: 20px;
 }
 
 .bg-logo{
     background-color: #ffff;
 }
 
-.document{
+.document-logos{
     width: 102px;
+    margin-bottom: 30px;
+}
+
+.text-center{
+    color: #808080;
+}
+
+.title-ideas{
+    color: #3D3D3D;
 }
 
 .container-recent-work{
@@ -143,9 +156,10 @@ span{
 }
 
 .button-all-recent{
-    color: black !important;
+    color: #808080 !important;
     background-color: rgb(255, 255, 255) !important;
     padding: 7px 9px !important;
+    font-size: 13px;
 }
 
 .title{
@@ -155,18 +169,20 @@ span{
 
 .title-template{
     font-size: 24px;
+    color: #3a484b;
 }
 
 .template-logo{
     margin-right: 10px;
     font-size: 33px;
+    color: #3a484b;
 }
 
 .title-recent-work{
     text-align: center;
     color: #ffff;
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .recent-work-lorem{
@@ -200,7 +216,7 @@ span{
     display: flex !important;
     margin: auto;
     margin-top: 70px;
-    padding: 10px;
+    padding: 10px !important;
 }
 
 .container-layered{
@@ -224,6 +240,10 @@ span{
     margin-right: 50px;
 }
 
+.hr-layered{
+    background-color: #0000000d;
+}
+
 .images-layered-down{
     width: 220px;
     height: 168px;
@@ -234,7 +254,7 @@ span{
     background-color: #97d2a4 !important;
     color: #ffff !important;
     font-size: 13px !important;
-    padding: 10px !important;
+    padding: 13px !important;
 }
 
 .title-layered{
@@ -245,7 +265,7 @@ span{
     background-color: #a8d4dd !important;
     color: #ffff !important;
     font-size: 13px !important;
-    padding: 10px !important;
+    padding: 13px !important;
 }
 
 .container-meet{
@@ -265,11 +285,11 @@ span{
     text-align: center;
     color: #ffff;
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .title-card-meet{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
     font-size: 20px;
 }
 
@@ -295,13 +315,13 @@ span{
 }
 
 .facebook-meet{
-    color: #00f;
+    color: #2941a3;
     font-size: 30px;
     margin-right: 5px;
 }
 
 .twitter-meet{
-    color: #00bfff;
+    color: #23a8fb;
     font-size: 30px;
     margin-right: 5px;
 }
@@ -334,7 +354,7 @@ span{
     text-align: center;
     color: #ffff;
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .card-recent{
@@ -350,7 +370,7 @@ span{
 }
 
 .title-card-recent{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
     font-size: 20px;
 }
 
@@ -397,29 +417,32 @@ span{
 .title-contac{
     padding-top: 50px;
     text-align: center;
-    color: #ffff;
+    color: #d3cfd0;
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .contac-lorem{
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     margin: auto;
     width: 320px;
-    color: #ffffff8a;
+    color: #d3cfd0;
+    padding-bottom: 15px;
 }
 
 .type-text-name{
     margin: auto !important;
     width: 460px !important;
     margin-top: 50px !important;
+    height: 46px !important;
 }
 
 .type-text-email{
     margin: auto !important;
     width: 460px !important;
     margin-top: 20px !important;
+    height: 46px !important;
 }
 
 .type-text-message{
@@ -427,7 +450,7 @@ span{
     width: 460px !important;
     margin-top: 20px !important;
     height: 140px !important;
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
 
 .button-show-more-contact{
@@ -438,32 +461,55 @@ span{
     margin: auto;
     margin-top: 30px;
     padding: 10px !important;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 hr{
     background-color: black;
+    size: 10px;
 }
 
 .footer-logo-twitter{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: #525252;
 }
 
 .footer-logo-facebook{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: #525252;
 }
 
 .footer-logo-html{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: #525252;
 }
 
 .footer-logo-flickr{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
+    color: #525252;
+}
+
+.container-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-footer{
+    color: #e1bf75;
+}
+
+.footer-copyright{
+    color: #808080;
+    margin-right: 10px;
+}
+
+.footer-powered{
+    color: #808080;
 }
