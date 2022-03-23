@@ -216,7 +216,7 @@ span{
     display: flex !important;
     margin: auto;
     margin-top: 70px;
-    padding: 10px !important;
+    padding: 13px !important;
 }
 
 .container-layered{
@@ -231,7 +231,7 @@ span{
 
 .conatiner-documents-layered-down{
     padding-bottom: 60px; 
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .images-layered-up{
@@ -286,6 +286,7 @@ span{
     color: #ffff;
     font-size: 37px;
     font-family: 'Roboto Serif', serif;
+    margin-top: 30px;
 }
 
 .title-card-meet{
@@ -342,7 +343,7 @@ span{
 
 .container-recent{
     background-color: #a8d4dd;
-    height: 610px;
+    height: 650px;
 }
 
 
@@ -355,6 +356,7 @@ span{
     color: #ffff;
     font-size: 37px;
     font-family: 'Roboto Serif', serif;
+    margin-top: 20px;
 }
 
 .card-recent{
@@ -367,11 +369,12 @@ span{
     margin: auto;
     width: 320px;
     color: #ffffff8a;
+    margin-bottom: 60px;
 }
 
 .title-card-recent{
     font-family: 'Roboto Serif', serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .container-card-recent{
