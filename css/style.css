@@ -397,29 +397,32 @@ span{
 .title-contac{
     padding-top: 50px;
     text-align: center;
-    color: #ffff;
+    color: hsl(345deg 4% 82%);
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .contac-lorem{
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     margin: auto;
     width: 320px;
-    color: #ffffff8a;
+    color: hsl(345deg 4% 82%);
+    padding-bottom: 15px;
 }
 
 .type-text-name{
     margin: auto !important;
     width: 460px !important;
     margin-top: 50px !important;
+    height: 46px !important;
 }
 
 .type-text-email{
     margin: auto !important;
     width: 460px !important;
     margin-top: 20px !important;
+    height: 46px !important;
 }
 
 .type-text-message{
@@ -427,7 +430,7 @@ span{
     width: 460px !important;
     margin-top: 20px !important;
     height: 140px !important;
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
 
 .button-show-more-contact{
@@ -438,32 +441,55 @@ span{
     margin: auto;
     margin-top: 30px;
     padding: 10px !important;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 hr{
     background-color: black;
+    size: 10px;
 }
 
 .footer-logo-twitter{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: hsl(0deg 0% 32%);
 }
 
 .footer-logo-facebook{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: hsl(0deg 0% 32%);
 }
 
 .footer-logo-html{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     margin-right: 10px;
+    color: hsl(0deg 0% 32%);
 }
 
 .footer-logo-flickr{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
+    color: hsl(0deg 0% 32%);
+}
+
+.container-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-footer{
+    color: hsl(41deg 64% 67%);;
+}
+
+.footer-copyright{
+    color: #808080;
+    margin-right: 10px;
+}
+
+.footer-powered{
+    color: #808080;
 }
