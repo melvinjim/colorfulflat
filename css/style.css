@@ -25,6 +25,7 @@ span{
 
 .time-new-roman{
     font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
 }
 
 .template-container{
@@ -212,16 +213,17 @@ span{
 .button-show-more{
     background-color: #ffff !important;
     color: #808080 !important;
-    font-size: 13px !important;
+    font-size: 11px !important;
     display: flex !important;
     margin: auto;
     margin-top: 70px;
-    padding: 13px !important;
+    padding: 17px !important;
 }
 
 .container-layered{
     background-color: #f1f1f1;
     height: auto;
+    padding: 20px 0px;
 }
 
 .conatiner-documents-layered{
@@ -236,7 +238,6 @@ span{
 
 .images-layered-up{
     width: 220px;
-    height: 168px;
     margin-right: 50px;
 }
 
@@ -246,7 +247,6 @@ span{
 
 .images-layered-down{
     width: 220px;
-    height: 168px;
     margin-left: 50px;
 }
 
@@ -254,7 +254,7 @@ span{
     background-color: #97d2a4 !important;
     color: #ffff !important;
     font-size: 13px !important;
-    padding: 13px !important;
+    padding: 17px !important;
 }
 
 .title-layered{
@@ -265,12 +265,12 @@ span{
     background-color: #a8d4dd !important;
     color: #ffff !important;
     font-size: 13px !important;
-    padding: 13px !important;
+    padding: 17px !important;
 }
 
 .container-meet{
     background-color: #e1b6c7;
-    height: 600px;
+    height: 700px;
 }
 
 .meet-our-team{   
@@ -278,40 +278,47 @@ span{
 }
 
 .card-meet{
-    width: 233px;
+    width: 248px;
+    height: 400px;
 }
 
 .title-meet{
     text-align: center;
     color: #ffff;
-    font-size: 37px;
+    font-size: 36px;
     font-family: 'Roboto Serif', serif;
     margin-top: 30px;
 }
 
 .title-card-meet{
     font-family: 'Roboto Serif', serif;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .container-card-meet{
     text-align: center;
-    height: 350px;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .image-meet-card{
-    width: 230px;
-    height: 130px;
     margin: auto;
+    width: 40px !important;
+}
+
+.title-image-meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9ea;
+    height: 170px;
 }
 
 .meet-lorem{
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     margin: auto;
-    width: 320px;
+    width: 335px;
     color: #ffffff8a;
 }
 
@@ -343,9 +350,16 @@ span{
 
 .container-recent{
     background-color: #a8d4dd;
-    height: 650px;
+    height: 710px;
 }
 
+.image-title-recent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9ea;
+    height: 173px;
+}
 
 .recent-posts{   
     padding-top: 30px;
@@ -360,48 +374,46 @@ span{
 }
 
 .card-recent{
-    width: 253px
+    width: 277px;
+    height: 330px;
 }
 
 .recent-lorem{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     margin: auto;
-    width: 320px;
+    width: 421px;
     color: #ffffff8a;
     margin-bottom: 60px;
 }
 
 .title-card-recent{
-    font-family: 'Roboto Serif', serif;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .container-card-recent{
     text-align: center;
-    height: 295px;
     justify-content: space-between;
-    margin-top: 40px;
 }
 
 .image-recent-card{
-    width: 250px !important;
-    height: 130px;
-    margin: auto;
+    width: 50px !important;
+    height: auto;
 }
 
 .button-show-more-recent{
     background-color: #ffff !important;
     color: #a8d4dd !important;
-    font-size: 13px !important;
+    font-size: 11px !important;
     display: flex !important;
     margin: auto;
     margin-top: 70px;
-    padding: 10px !important;
+    padding: 17px !important;
+    width: 110px;
 }
 
 .card-text-recent{
-    font-size: 10px;
+    font-size: 12px;
     color: #808080;
     margin-top: 8px;
 }
@@ -409,7 +421,6 @@ span{
 .subtitle-recent{
     font-size: 12px;
     color: #808080;
-    margin-bottom: 5px;
 }
 
 .footer{
@@ -427,9 +438,9 @@ span{
 
 .contac-lorem{
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     margin: auto;
-    width: 320px;
+    width: 375px;
     color: #d3cfd0;
     padding-bottom: 15px;
 }
@@ -458,13 +469,13 @@ span{
 
 .button-show-more-contact{
     background-color: #ffff !important;
-    color: #3D3D3D !important;
-    font-size: 13px !important;
+    font-size: 11px !important;
     display: flex !important;
     margin: auto;
     margin-top: 30px;
-    padding: 10px !important;
+    padding: 17px !important;
     margin-bottom: 60px;
+    width: 110px !important;
 }
 
 hr{
