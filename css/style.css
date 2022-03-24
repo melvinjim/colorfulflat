@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
+
 .navbar{
     justify-content: space-between !important;
     padding: 30px 0px 0px 0px !important;
@@ -60,6 +62,7 @@ span{
     border: 2px solid #ffff;
     margin-right: 20px;
 }
+
 .a-button-web{
     padding: 6px 15px !important;
 }
